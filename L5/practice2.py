@@ -1,7 +1,8 @@
 import time
 
-N = 100000
-array = list(range(0, 100001))
+N = 1000
+M = 1000
+array = list(range(0, N * M + 1))
 
 time_sta = time.perf_counter()
 array.sort(reverse=True)
